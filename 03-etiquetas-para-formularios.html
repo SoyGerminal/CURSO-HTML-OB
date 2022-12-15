@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etiquetas para formularios.</title>
+</head>
+<body>
+    <h2>Formulario. Etiquetas y desarrollo.</h2>
+    <div>
+        <!-- El metodo Post es para implementar acciones de servidor-->
+        <form action="/00-Auxiliar.html" method="GET">
+            <div>
+                <label for="userName">Nombre de usuario:</label>
+                <input type="text" name="userName" id="userName" required>
+            </div>
+            <div>
+                <label for="password">Contraseña</label>
+                <input type="password" name="password" id="password" required>
+            </div>
+            <div>
+                <label for="age">Edad</label>
+                <input type="number" name="age" id="age" min="0" max="100">
+            </div>
+            <div>
+                <label for="fecha">Fecha</label>
+                <input type="date" name="fecha" id="fecha">
+            </div>
+            <div>
+                <label for="textarea">Comentario</label>
+                <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
+            </div>
+            <div>
+                <label for="email">email</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <button type="reset">Reset</button>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>
