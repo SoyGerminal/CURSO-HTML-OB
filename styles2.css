@@ -1,0 +1,25 @@
+/* EStilos para colores */
+
+.colores{
+    color: red;
+}
+
+.color-hexadecimal{
+    color: #FF1053;
+}
+
+.color-rgb{
+    color: rgb(100, 230, 23);
+}
+
+.color-rgba{
+    color: rgba(100, 100, 100, 0.3);
+}
+
+/* Fondos */
+
+.fondo{
+    background-color: #be768a;
+    background-image: url(/Multimedia/marguerite-729510__480.jpeg);
+    background-position: center, center;
+}

@@ -1,0 +1,21 @@
+/* Tamaños 
+OJO: A la hora de tranajar con altos y anchos no deberíamos trabajar con pixels (px) como medida ya que sus valores no hacen que la web sea responsive.
+*/
+
+.ancho{
+    background-color: brown;
+    width: 100px;
+}
+
+.alto{
+    background-color: coral;
+    height: 150px;
+}
+
+.card{
+    border-style: solid;
+    border-color: rgb(150, 25, 178);
+    border-width: 2px;
+    padding: 10px 10px 10px 10px;
+    margin: 20px;
+}

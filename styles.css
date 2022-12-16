@@ -1,0 +1,40 @@
+/* Selector UNiversal*/
+*{
+    background-color: azure;
+    /*aqui dentro todos los atributos para todo*/
+}
+
+
+
+h1 {
+    color: red;
+}
+/* Comentario: */
+
+p {
+    color: blue;
+    font-size: 16pt;
+}
+
+/* Como acceder a los selectores id*/
+
+#primera-noticia{
+    color: blueviolet;
+    font-size: 16pt;
+}
+
+#segunda-noticia{
+    color: darkgreen;
+}
+
+/* Trabajar con los selectores de clases*/
+
+.encabezado{
+    color: cadetblue;
+    font-size: 24pt;
+    text-transform: uppercase;
+}
+
+.autor, .obra, .fecha, h1{
+    text-decoration: underline;
+}
