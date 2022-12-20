@@ -1,0 +1,38 @@
+div{
+    border: 1px solid gray;
+    padding: 5px;
+    margin: 5px;
+}
+
+/*.static{
+     no deberíamos editarlo, de primeras no se ven afectado
+    border: 1px solid gray;
+    padding: 5px;
+}*/
+/* el posicionamiento de relative es en base al posicionamiento original del elemento*/
+.relative{
+    position: relative; /* Este desplazamiento NO ES MARGEN es posicionamiento*/
+    left: 30px;
+    margin-left: 20px;
+}
+/* el posicionamiento fixed se posiciona en relacion a la pantalla*/
+.fixed{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    z-index: 10px;/*marca posicion sobre el eje z*/
+}
+
+/* Absolute se posiciona en funcion de su elemento padre*/
+
+.absolute{
+    position: absolute;
+    top: 0px;
+
+}
+
+.sticky{
+    background-color: darkcyan;
+    position: sticky;
+    top:0px;
+}

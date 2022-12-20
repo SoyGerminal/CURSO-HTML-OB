@@ -1,0 +1,15 @@
+.gallery{
+    display: flex;
+    background-color: aquamarine;
+    height: 400px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+.flor-1, .flor-2, .flor-3, .flor-4, .flor-5, .flor-6{
+    width: 300px;
+    height: auto;
+
+}
